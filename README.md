@@ -1,6 +1,6 @@
 # GitHub User Finder
 
-![GitHub User Finder](./public/screenshot.png)
+![GitHub User Finder](https://github-users-search-seven.vercel.app/)
 
 A modern and responsive web application built with React and TypeScript that allows you to search for GitHub users and view their profile details, repository statistics, and language usage through the GitHub GraphQL API.
 
