@@ -2,7 +2,7 @@
 
 GitHub User Finder, A modern and responsive web application built with React and TypeScript that allows you to search for GitHub users and view their profile details, repository statistics, and language usage through the GitHub GraphQL API.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)]([https://your-live-demo-link.com](https://github-users-search-seven.vercel.app/)) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Live Demo]([https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://github-users-search-seven.vercel.app/)]([https://your-live-demo-link.com](https://github-users-search-seven.vercel.app/)) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
