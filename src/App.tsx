@@ -4,7 +4,7 @@ import UserProfile from "./components/user/UserProfile";
 import { Toaster } from "sonner";
 
 const App = () => {
-  const [userName, setUserName] = useState("noto");
+  const [userName, setUserName] = useState("freeCodeCamp");
   return (
     <main className="mx-auto max-w-6xl px-8 py-20">
       <SearchForm userName={userName} setUserName={setUserName} />
