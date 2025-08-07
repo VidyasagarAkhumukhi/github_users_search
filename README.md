@@ -1,12 +1,11 @@
 # GitHub User Finder
 
-GitHub User Finder, A modern and responsive web application built with React and TypeScript that allows you to search for GitHub users and view their profile details, repository statistics, and language usage through the GitHub GraphQL API.
+![GitHub User Finder](./public/screenshot.png)
 
-<<<<<<< HEAD
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://github-users-search-seven.vercel.app/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-=======
-[![Live Demo]([https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://github-users-search-seven.vercel.app/)]([https://your-live-demo-link.com](https://github-users-search-seven.vercel.app/)) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
->>>>>>> cbcb230b9e5bcb1ded3a511f49c1252071902ecb
+A modern and responsive web application built with React and TypeScript that allows you to search for GitHub users and view their profile details, repository statistics, and language usage through the GitHub GraphQL API.
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://github-users-search-seven.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -102,3 +101,24 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## 📂 Project Structure
 
 The project follows a component-based architecture to keep the code organized and maintainable.
+src
+├── apolloClient.ts # Apollo Client configuration
+├── main.tsx # Main entry point of the application
+├── index.css # Global styles (Tailwind CSS imports)
+├── queries.ts # GraphQL queries
+├── types.ts # TypeScript type definitions for API data
+├── utils.ts # Utility functions for data processing
+└── components
+├── charts # Reusable chart components
+│ ├── ForkedRepos.tsx
+│ ├── PopularRepos.tsx
+│ └── UsedLanguages.tsx
+├── form # Form components
+│ └── SearchForm.tsx
+├── user # User-related components
+│ ├── Loading.tsx
+│ ├── StatsCard.tsx
+│ ├── StatsContainer.tsx
+│ ├── UserCard.tsx
+│ └── UserProfile.tsx
+└── ui # UI components from Shadcn/U
