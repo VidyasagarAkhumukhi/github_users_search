@@ -4,6 +4,10 @@ import { GET_USER } from "@/queries";
 import { type UserData } from "@/types";
 import UserCard from "./UserCard";
 import StatsContainer from "./StatsContainer";
+import UsedLanguages from "../charts/UsedLanguages";
+import PopularRepos from "../charts/PopularRepos";
+import ForkedRepos from "../charts/ForkedRepos";
+import Loading from "./loading";
 
 type UserProfileProps = {
   userName: string;
@@ -14,7 +18,7 @@ const UserProfile = ({ userName }: UserProfileProps) => {
     variables: { login: userName },
   });
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <Loading />;
   if (error) return <h2 className="text-xl">{error.message}</h2>;
   if (!data) return <h2 className="text-xl">User Not Found.</h2>;
 
@@ -38,6 +42,13 @@ const UserProfile = ({ userName }: UserProfileProps) => {
         following={following.totalCount}
         gists={gists.totalCount}
       />
+      {repositories.totalCount > 0 && (
+        <div className="grid md:grid-cols-2 gap-4">
+          <UsedLanguages repositories={repositories.nodes} />
+          <PopularRepos repositories={repositories.nodes} />
+          <ForkedRepos repositories={repositories.nodes} />
+        </div>
+      )}
     </div>
   );
 };
