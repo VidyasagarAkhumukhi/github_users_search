@@ -201,8 +201,4 @@ Transform your developer discovery process in under 5 minutes:
 This platform represents the **next evolution** in technical talent assessment. In a world where code speaks louder than words, GitHub User Finder gives you the tools to **listen, understand, and act** on the stories that repositories tell.
 
 **Ready to revolutionize your hiring process?**
-[🚀 **Experience the Demo**](https://github-users-search-seven.vercel.app/) | [📖 **Read the Docs**](#) | [🤝 **Get Support**](#)
-
----
-
-_Built with ❤️ by developers, for developers. Join the revolution in technical talent discovery._
+[🚀 **Experience the Demo**](https://github-users-search-seven.vercel.app/) 
